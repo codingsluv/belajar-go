@@ -1,10 +1,7 @@
 package main
 
-import (
-	"fmt"
-	"math"
-)
+import "fmt"
 
 func main() {
-	fmt.Println("hello world", math.Sqrt(4))
+	fmt.Println()
 }

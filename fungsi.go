@@ -1,8 +1,6 @@
 package main
 
-import (
-	"fmt"
-)
+import "fmt"
 
 // func main() {
 // 	var names = []string{"jhon", "wick"}
@@ -34,17 +32,26 @@ import (
 // 	return value
 // }
 
-func main() {
-	var a int = 10
-	var b int = 5
-	var hasil int
+// func main() {
+// 	var a int = 10
+// 	var b int = 5
+// 	var hasil int
 
-	hasil = hitung(a, b)
-	fmt.Println("hasilnya adalah:", hasil)
+// 	hasil = hitung(a, b)
+// 	fmt.Println("hasilnya adalah:", hasil)
+// }
+
+// func hitung(angka1, angka2 int) int {
+// 	var hasil int
+// 	hasil = angka1 + angka2
+// 	return hasil
+// }
+
+func getHello(name string) string {
+	return "Hello " + name
 }
 
-func hitung(angka1, angka2 int) int {
-	var hasil int
-	hasil = angka1 + angka2
-	return hasil
+func main() {
+	result := getHello("een")
+	fmt.Println(result)
 }
